@@ -35,7 +35,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     const passwordValue = getPassword.value;
     
     //Varify Email and Password and login
-    if(emailValue === 'yeanur@gmail.com' && passwordValue === 'hello123'){
+    if(emailValue === 'yeanur@gmail.com' && passwordValue === 'yeanur123'){
         window.location = 'bank.html'
     }else{
         alert('Wrong your infomation !!!')
